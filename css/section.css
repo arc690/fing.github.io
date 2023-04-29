@@ -1,0 +1,104 @@
+#fullpage.no-scroll {
+	overflow-y: hidden;
+	max-height: 100vh;
+}
+
+.section {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.section.one {
+	background-image: url(https://www.supercars.net/blog/wp-content/uploads/2020/07/bugatti-divo-2018-art-x6.jpg);
+}
+
+.section.two {
+	background-image: url(https://www.hdcarwallpapers.com/download/lamborghini_sian_fkp_37_4k_5-3840x2160.jpg);
+}
+
+.section.three {
+	background-image: url(https://wallpapers.com/images/featured/i0q2nq73l3lti88k.jpg);
+}
+
+.section.four {
+	background-image: url(https://wallpaperaccess.com/full/8795834.png);
+}
+
+.section.five {
+	background-image: url(https://wallpapercave.com/wp/wp8449605.jpg);
+}
+
+.section.six {
+	background-image: url(https://trumpwallpapers.com/wp-content/uploads/Mustang-Wallpaper-06-1920x1080-1.jpg);
+}
+
+.section.seven {
+	background-image: url(https://o.aolcdn.com/images/dims3/GLOB/legacy_thumbnail/1600x900/format/jpg/quality/85/https://s.aolcdn.com/os/ab/_cms/2022/11/11121120/MB_Vision_AVTR-50.jpg);
+}
+
+.section__content {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	text-align: center;
+	text-transform: capitalize;
+	color: var(--primary-color);
+}
+
+.section__content__title {
+	font-size: 4rem;
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+	color: #ffffff;
+}
+
+.section__content__subtitle {
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: white;
+	
+}
+
+.section__content__subtitle a {
+	color: inherit;
+}
+
+.section__content__subtitle a:hover {
+	text-decoration: underline;
+}
+
+.section__action__container {
+	position: absolute;
+	bottom: 15%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.section__action__btn {
+	font-size: 1.5rem;
+	font-weight: 500;
+	padding: 1rem;
+	border-radius: 2rem;
+	flex-basis: 80%;
+	margin-bottom: 1rem;
+	text-transform: capitalize;
+}
+
+.action__btn__primary {
+	background: rgba(33, 251, 255, 0.8);
+	color: white;
+}
+
+.action__btn__secondary {
+	background: rgb(8, 255, 251);
+	color: var(--primary-color);
+	color: white;
+}
